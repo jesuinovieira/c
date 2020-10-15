@@ -4,8 +4,8 @@ Projects developed during the Programming II (data structure and sorting algorit
 subject – second semester of [Mechatronics Engineering](https://mecatronica.ufsc.br/) 
 course at Federal University of Santa Catarina (UFSC).
 
-:page_with_curl: **[TextEditor](https://github.com/jesuinovieira/c/tree/master/text-editor)**: 
+:page_with_curl: **[text-editor](https://github.com/jesuinovieira/c/tree/master/text-editor)**: 
 basic text editor using linked list.
 
-:traffic_light: **[TrafficSimulator](https://github.com/jesuinovieira/c/tree/master/traffic-simulator)**: 
+:traffic_light: **[traffic-simulator](https://github.com/jesuinovieira/c/tree/master/traffic-simulator)**: 
 traffic simulator using an event queue.

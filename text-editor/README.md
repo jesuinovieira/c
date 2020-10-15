@@ -1,4 +1,4 @@
-# IMPLEMENTAÇÃO
+# Implementação
 
 O programa resume-se em um editor de texto primitivo. Os comandos suportador pelo editor estão descritos detalhadamente em (/header/buffer_interface.h). 
 A estrutura do programa foi baseada na implementação de tipos abstratos de dados (TDA). O programa contém três TDA's:
@@ -9,7 +9,7 @@ A estrutura do programa foi baseada na implementação de tipos abstratos de dad
 	
 A descrição detalhada de cada TDA e suas funções se encontra na pasta header (/header).
 
-# FUNCIONAMENTO
+# Funcionamento
 
 O editor funciona de maneira simples. A estrutura do buffer é composta por um ponteiro para uma lista aonde cada
 nó representa uma linha do buffer. Também possui uma ponteiro para o nó atual, de modo que o usuário consiga se localizar
@@ -17,7 +17,7 @@ no texto e realizar as operações de edição no lugar correto. A cada comando 
 O tamanho de cada linha (TAM) é definido em (/sources/buffer.c) na linha 6. Observe que o numero máximo de 
 caracteres não inclui o caractere de final de string '\0'.
 
-# OBSERVAÇÕES
+# Observações
 
 Atenção, para melhor funcionamento do editor:
 
@@ -27,9 +27,7 @@ Atenção, para melhor funcionamento do editor:
     (pós edição) na pasta /output. Assim, tanto no comando 'R' como no comando 'W', deve ser inserido o diretório de acordo
     com as especificações: ../TXT/nome_do_arquivo_para_edição ou ../output/nome_do_arquivo_de_saída.
 
-
-
-# EXECUÇÃO
+# Execução
 
 Inicialize o terminal na pasta que contém o Makefile e digite para:
 

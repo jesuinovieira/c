@@ -9,14 +9,14 @@ possui 14 vias e 8 semáforos.
 A estrutura do programa foi baseada na implementação de tipos abstratos de dados (TDA). 
 O programa contém quatro TDA's:
 
-- TDA fila: contém as operações de uma fila genérica. 
-- TDA pista: contém as operações envolvendo as pistas e os veiculo, os quais são 
+- **TDA fila:** contém as operações de uma fila genérica. 
+- **TDA pista:** contém as operações envolvendo as pistas e os veiculo, os quais são 
 representados como uma fila na estrutura da pista. (Para melhor organização, o arquivo 
 .c foi dividido em duas partes, pista.c e veiculo.c).
-- TDA relogio: contém as operações envolvendo o relogio e os eventos, os quais são 
+- **TDA relogio:** contém as operações envolvendo o relogio e os eventos, os quais são 
 representados como uma fila na estrutura da pista. (Para melhor organização, o arquivo 
 .c foi dividido em duas partes, relogio.c e evento.c).
-- TDA semaforo: contém as operações envolvendo os semáforos do sistema. 
+- **TDA semaforo:** contém as operações envolvendo os semáforos do sistema. 
 
 A descrição detalhada de cada TDA e suas funções se encontra na pasta header (/header).
 
